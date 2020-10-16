@@ -33,6 +33,12 @@ class CadPetActivity2 : AppCompatActivity() {
 
 
 
+        //When the button btnSelectPhoto is pressed it will select an pic by the method
+        btnSelectPhoto.setOnClickListener{
+
+        }
+
+
     }
 
 
@@ -46,6 +52,8 @@ class CadPetActivity2 : AppCompatActivity() {
         intent.type = "image/*"
         startActivityForResult(intent, 0)
     }
+
+
 
 
 
