@@ -8,4 +8,5 @@ gradlew.bat
 local.properties
 settings.gradle
 build.gradle
+*.log
 
