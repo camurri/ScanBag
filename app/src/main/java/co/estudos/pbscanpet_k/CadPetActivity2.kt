@@ -2,8 +2,6 @@ package co.estudos.pbscanpet_k
 
 import android.content.Intent
 import android.os.Bundle
-import android.provider.MediaStore
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_cad_pet2.*
 
@@ -40,21 +38,6 @@ class CadPetActivity2 : AppCompatActivity() {
 
 
     }
-
-
-
-    /*Here is fun selectPhoto()
-    Basically this fun is responsible for
-    get images from gallery. Take look above.
-     */
-    fun selectPhoto(){
-        val intent = Intent(Intent.ACTION_PICK)
-        intent.type = "image/*"
-        startActivityForResult(intent, 0)
-    }
-
-
-
 
 
 }
